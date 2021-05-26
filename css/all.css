@@ -1,0 +1,71 @@
+ul li{
+    list-style: none;
+    padding: 0 !important;
+    
+}
+body{
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.ls_disc{
+    list-style:disc;
+}
+.ls_decimal{
+    list-style:decimal
+}
+
+/* 顏色 */
+.c_primary{
+    color: #212529;;
+}
+.c_secondary{
+    color: #6c757d;
+}
+/* 鼠標 */
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* 效果 */
+.hover-gray:hover{
+    color: #565e64;
+}
+.header-h1:hover{
+    color: #212529;;
+    text-decoration: none;
+   }
+/* 背景 */
+.bg_gray{
+    background-color: #565e64;
+}
+.bg_lightGray{
+    background-color:  #f8f9fa!important;
+}
+/* 字形 */
+.ff_Playfair{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.fs-xs{
+    font-size: 30px;
+}
+
+.fs-xl{
+    font-size: 44px;
+}
+
+/* 推擠 */
+.p_l_0{
+    padding-left:0 !important;
+}
+
+/* position */
+.top-40{
+    top:40%;
+}
+.start-28{
+    left:28%;
+}
